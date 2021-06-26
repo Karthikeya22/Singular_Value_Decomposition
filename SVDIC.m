@@ -1,3 +1,6 @@
+close all
+clear all
+clc
 image = imread('plane.jpg');
 grayimage = rgb2gray(image);
 imageD=double(grayimage);
